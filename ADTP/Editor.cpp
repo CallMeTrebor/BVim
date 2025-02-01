@@ -334,7 +334,7 @@ void Editor::consoleMode(int input) {
 			quit();
 		}
 		else if (command.compare("stx") == 0) {
-			updateFooter(string("Switched syntax mode ") + (!syntaxMode == true ? "ON" : "OFF"), CONSOLE);
+			updateFooter(string("Switched syntax mode ") + (syntaxMode ? "OFF" : "ON"), CONSOLE);
 			switchSyntaxMode(args);
 		}
 		else {
