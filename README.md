@@ -34,7 +34,7 @@ To install and run ADTP, follow these steps:
     cd BVim
     ```
 
-3. Open the solution file `BVim.sln` in Visual Studio.
+3. Open the solution file `ADTP.sln` in Visual Studio.
 
 4. Build the solution.
 
