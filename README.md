@@ -20,6 +20,7 @@ Based on the popular [VIM](https://github.com/vim/vim) editor.
 
 ## Installation
 
+*The project only runs on Windows as of now, as it uses the Windows API* <br/>
 To install and run ADTP, follow these steps:
 
 1. Clone the repository:
@@ -55,7 +56,7 @@ The editor supports different modes such as NORMAL, INSERT, REPLACE, and CONSOLE
 | Switching Modes| ✅         | ❌          | ❌          | ❌           |
 | Entered With   | `esc`       | `i`         | `r`         | `:`           |
 
-![Editor Layout](Layout.png)
+![Editor Layout](./Screenshots/Layout.png)
 The upper part is the editor itself, where the user can modify file contents, the
 bottom row is the status bar, where the user can enter commands and the system
 can 'talk' with the user. The bottom right corner shows the current mode selected.
@@ -68,9 +69,9 @@ Provides autocomplete suggestions based on the loaded dictionary, press control 
 
 Supports syntax highlighting for different programming languages,
 switching this on/off and what language to use is detailed in the
-[Console Mode section](#console-mode). You can create syntax higlighting for
-any existing programming language's key words, by writing each one a new line
-of a file.
+[Console Mode section](#console-mode). <br/>
+You can create syntax higlighting for any programming language's key words,
+by writing each one a new line of a file.
 ex. c++
 
 ```c++
@@ -100,7 +101,7 @@ do
 - `stx [fileName]` - turn syntax mode on/off if file is loaded, if not, load syntax file from `fileName`
 - `! {command}` - runs the command on the system's shell (currently only support Windows' CMD)
 
-![Console Mode Example](ConsoleModeExample.png)
+![Console Mode Example](./Screenshots/ConsoleModeExample.png) <br/>
 
 ## Contributing
 
